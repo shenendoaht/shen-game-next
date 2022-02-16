@@ -1,2 +1,6 @@
-const Footer = () => <footer><h1>footer!</h1></footer>
-export default Footer 
+const Footer = () => (
+  <footer>
+    <h4>&copy game 2022</h4>
+  </footer>
+);
+export default Footer;

@@ -8,10 +8,10 @@ body {
   justify-content: space-around;
 }
 
-link {
+a {
   color: inherit;
   text-decoration: none;
-  margin: 10px auto;
+  margin: 10px 20px;
   display: block;
 }
 

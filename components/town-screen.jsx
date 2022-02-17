@@ -1,6 +1,6 @@
 import Link from "next/link";
 const TownScreen = () => {
-  <section id="townSquare">
+  <section id="town-screen">
     <header>
       <h1>Town</h1>
       <h2 id="town-message"></h2>

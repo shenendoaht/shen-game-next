@@ -1,10 +1,13 @@
 import { usePlayerContext } from "../contexts/player-context";
 
-const Header = ({ greeting }) => {
-  const pData = usePlayerContext();
+const Header = () => {
+  const { playerData } = usePlayerContext();
+  const { name } = playerData;
+
   return (
     <header>
-      <h1>Welcome, {greeting}</h1>
+      <h1>Welcome, {name}!</h1>
+      <hr />
     </header>
   );
 };

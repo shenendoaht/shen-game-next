@@ -43,4 +43,5 @@ const TownScreen = () => (
     </nav>
   </section>
 );
+
 export default TownScreen;

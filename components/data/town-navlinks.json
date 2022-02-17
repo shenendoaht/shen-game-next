@@ -1,0 +1,22 @@
+[
+  {
+    "href": "/arena",
+    "text": "Arena"
+  },
+  {
+    "href": "/forest",
+    "text": "Forest"
+  },
+  {
+    "href": "/house",
+    "text": "House"
+  },
+  {
+    "href": "/shop",
+    "text": "Shop"
+  },
+  {
+    "href": "/tavern",
+    "text": "Tavern"
+  }
+]

@@ -1,5 +1,7 @@
 import Link from "next/link";
-const TownScreen = () => {
+import townNavLinks from "./data/town-navlinks.json";
+
+const TownScreen = () => (
   <section id="town-screen">
     <header>
       <h1>Town</h1>
@@ -27,30 +29,18 @@ const TownScreen = () => {
         <div class="player"></div>
         <div class="stats" id="town-stats"></div>
       </div> */}
-    <Link href="/forest"> forest </Link>
-    <Link href="/tavern"> tavern </Link>
-    <Link href="/house"> house </Link>
-    <Link href="/arena"> arena </Link>
-    <Link href="/shop"> shop </Link>
-  </section>;
-};
+    <nav id="town-navigation">
+      <h2>Town Navigation</h2>
+      <ul id="town-navigation-links">
+        {townNavLinks.map(({ href, text }) => (
+          <li key={href}>
+            <Link href={href} passHref>
+              <a>{text}</a>
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </section>
+);
 export default TownScreen;
-//  <nav>
-//    <ul>
-//      <li>
-//        <button id="house-btn">House</button>
-//      </li>
-//      <li>
-//        <button id="tav-btn">Tavern</button>
-//      </li>
-//      <li>
-//        <button id="shop-btn">Shop</button>
-//      </li>
-//      <li>
-//        <button id="arena-btn">Arena</button>
-//      </li>
-//      <li>
-//        <button id="forest-btn">Forest</button>
-//      </li>
-//    </ul>
-//  </nav>;

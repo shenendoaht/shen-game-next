@@ -1,0 +1,46 @@
+[
+  {
+    "href": "/arena",
+    "text": "Arena"
+  },
+  {
+    "href": "/bedroom",
+    "text": "Bedroom"
+  },
+  {
+    "href": "/bridge",
+    "text": "Bridge"
+  },
+  {
+    "href": "/chest",
+    "text": "Chest"
+  },
+  {
+    "href": "/forest",
+    "text": "Forest"
+  },
+  {
+    "href": "/house",
+    "text": "House"
+  },
+  {
+    "href": "/",
+    "text": "Home"
+  },
+  {
+    "href": "/inn",
+    "text": "Inn"
+  },
+  {
+    "href": "/shop",
+    "text": "Shop"
+  },
+  {
+    "href": "/tavern",
+    "text": "Tavern"
+  },
+  {
+    "href": "/town",
+    "text": "Town"
+  }
+]

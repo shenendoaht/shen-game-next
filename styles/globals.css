@@ -24,3 +24,7 @@ a {
   background-size: cover;
   background-repeat: none;
 }
+
+.page-bg {
+  z-index: -1;
+}

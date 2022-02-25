@@ -14,6 +14,11 @@ Some code snippets worth keeping around for copy/pasting.
   Add {item} to inventory
 </button>
 ```
+```jsx
+import pageBgSrc from "/img/locations/welcome.png";
+<Layout bg={pageBgSrc}>
+```
+
 
 ## This is an h2
 

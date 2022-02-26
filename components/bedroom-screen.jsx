@@ -8,7 +8,7 @@ const BedroomScreen = () => {
   return (
     <section id="bedroom-screen">
       <h1>Here in {playerName}'s Bedroom</h1>
-      <Link href="/">bedroom</Link>
+      <Link href="/bedroom">bedroom</Link>
     </section>
   );
 };

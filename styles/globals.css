@@ -19,12 +19,6 @@ a {
   box-sizing: border-box;
 }
 
-#welcome-screen {
-  background-image: url('/img/locations/welcome.png');
-  background-size: cover;
-  background-repeat: none;
-}
-
 .page-bg {
   z-index: -1;
 }

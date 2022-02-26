@@ -1,6 +1,6 @@
 import Layout from "../components/layout";
 import ShopScreen from "../components/shop-screen";
-import pageBgSrc from "/img/locations/shop.png";
+import pageBgSrc from "/img/locations/store.jpg";
 
 export default function Shop() {
   return (

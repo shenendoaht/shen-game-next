@@ -19,6 +19,9 @@ a {
   box-sizing: border-box;
 }
 
+#__next > span,
 .page-bg {
+  position: fixed !important;
   z-index: -1;
+  pointer-events: none;
 }

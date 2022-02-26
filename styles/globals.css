@@ -25,3 +25,7 @@ a {
   z-index: -1;
   pointer-events: none;
 }
+#stat-disp {
+  display: flex;
+  justify-content: space-evenly;
+}

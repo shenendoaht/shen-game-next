@@ -26,6 +26,9 @@ a {
   pointer-events: none;
 }
 #stat-disp {
-  display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  background-color: lightblue;
+  color: black;
+  font-weight: bolder;
+  padding: .5em;
 }

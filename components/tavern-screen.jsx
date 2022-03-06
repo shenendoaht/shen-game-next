@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Layout from "./layout";
+import TavNavLinks from "./data/tav-nav-links.json";
 import { usePlayerContext } from "../contexts/player-context";
 
 const TavernScreen = () => {
@@ -42,8 +43,18 @@ const TavernScreen = () => {
           this one!
         </p>
       )}
-      <Link href="/">town</Link>
-      <Link href="/">inn</Link>
+      <nav id="tav-navigation">
+        <h2>Tav Navigation</h2>
+        <ul id="tav-navigation-links">
+          {TavNavLinks.map(({ href, text }) => (
+            <li key={href}>
+              <Link href={href} passHref>
+                <a>{text}</a>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
     </section>
   );
 };

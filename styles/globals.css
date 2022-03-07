@@ -18,7 +18,11 @@ a {
 * {
   box-sizing: border-box;
 }
-
+header, footer, nav {
+  color: white;
+  text-align: center;
+  list-style: none;
+}
 #__next > span,
 .page-bg {
   position: fixed !important;
